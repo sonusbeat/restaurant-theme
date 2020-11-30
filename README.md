@@ -5,6 +5,6 @@ Diseño agradable de un sitio de restaurante 🥗 responsivo. Contiene un encabe
 ## Instrucciones de instalación
 
 ```
-git clone "nombre del repositorio" restaurante
+git clone git@github.com:sonusbeat/restaurant-theme.git restaurante
 cd restaurante
 ```
