@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: $body-color;
+    box-shadow: 0 4px 4px rgba(#000, .1);
+    border-radius: 0 0 1rem 1rem;
+    z-index: $z-fixed;
+    transition: all .4s ease-in-out;
+  }
+
+  .show-menu {
+    top: $header-height;
+  }
+}
+
+.active-link {
+  color: $first-color;
+}
+
+@media (min-width: 576px) {
+  .home__container,
+  .about__container,
+  .app__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+  .about__data, .about__initial,
+  .app__data, .app__initial,
+  .contact__container, .contact__initial {
+    text-align: initial;
+  }
+
+  .about__img,
+  .app__img {
+    width: 380px;
+    order: -1;
+  }
+
+  .contact {
+    &__container{
+      grid-template-columns: 1.75fr 1fr;
+      align-items: center;
+    }
+  
+    &__button{
+      justify-self: center;
+    }
+  }
+}

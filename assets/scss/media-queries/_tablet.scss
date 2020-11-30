@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  body{
+    margin: 0;
+  }
+
+  .section {
+    padding-top: 8rem;
+  }
+
+  .nav{
+    height: calc($header-height + 1.5rem);
+
+    &__list {
+      display: flex;
+    }
+  
+    &__item {
+      margin-left: $m-5;
+      margin-bottom: 0;
+    }
+  
+    &__toggle {
+      display: none;
+    }
+  }
+
+  .home__container{
+    height: 100vh;
+    justify-items: center;
+  }
+
+  .services__container,
+  .menu__container{
+    margin-top: var(--mb-6);
+  }
+
+  .menu {
+    &__container{
+      grid-template-columns: repeat(3, 210px);
+      column-gap: 4rem;
+    }
+  
+    &__content{
+      padding: 1.5rem;
+    }
+  
+    &__img{
+      width: 130px;
+    }
+  }
+
+  .app__store{
+    margin: 0 var(--mb-1) 0 0;
+  }
+}

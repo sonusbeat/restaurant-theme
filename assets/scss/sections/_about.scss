@@ -1,0 +1,15 @@
+.about {
+  &__data {
+    text-align: center;
+  }
+
+  &__description {
+    margin-bottom: $m-3;
+  }
+
+  &__img {
+    width: 280px;
+    border-radius: 0.5rem;
+    justify-self: center;
+  }
+}

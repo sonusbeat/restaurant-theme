@@ -1,0 +1,23 @@
+.home {
+  &__container {
+    height: calc(100vh - $header-height);
+    align-content: center;
+  }
+
+  &__title {
+    font-size: $biggest-font-size;
+    color: $first-color;
+    margin-bottom: $m-1;
+  }
+
+  &__subtitle {
+    font-size: $h1-font-size;
+    color: $title-color;
+    margin-bottom: $m-4;
+  }
+
+  &__img {
+    width: 300px;
+    justify-self: center;
+  }
+}

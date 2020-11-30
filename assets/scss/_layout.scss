@@ -1,0 +1,44 @@
+.section {
+  padding: 4rem 0 2rem;
+
+  &-title, &-subtitle {
+    text-align: center;
+  }
+
+  &-title{
+    font-size: $h1-font-size;
+    color: $title-color;
+    margin-bottom: $m-3;
+  }
+
+  &-subtitle {
+    display: block;
+    color: $first-color;
+    font-weight: $font-medium;
+    margin-bottom: $m-1;
+  }
+}
+
+.bd {
+  &-container {
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: $m-2;
+    margin-right: $m-2;
+  }
+  
+  &-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+}
+
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-fixed;
+  background-color: $body-color;
+}
