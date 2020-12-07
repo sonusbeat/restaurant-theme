@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  background-color: $first-color;
+  background-color: var(--first-color);
   color: white;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
@@ -8,6 +8,6 @@
   font-weight: bold;
   transition: background 300ms ease-in-out;
   &:hover {
-    background: $first-color-alt;
+    background: var(--first-color-alt);
   }
 }

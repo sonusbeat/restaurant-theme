@@ -4,16 +4,16 @@
   }
 
   &__description {
-    margin-bottom: $m-5;
+    margin-bottom: var(--m-5);
   }
 
   &__stores {
-    margin-bottom: $m-4;
+    margin-bottom: var(--m-4);
   }
 
   &__store {
     width: 120px;
-    margin: 0 $m-1;
+    margin: 0 var(--m-1);
   }
 
   &__img {

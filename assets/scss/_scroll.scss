@@ -13,17 +13,17 @@
   padding: .3rem;
   background: rgba(6, 156, 84, .5);
   border-radius: .4rem;
-  z-index: $z-tooltip;
+  z-index: var(--z-tooltip);
   transition: all .4s ease-in-out;
   visibility: hidden;
 
   &:hover {
-    background: $first-color-alt;
+    background: var(--first-color-alt);
   }
 
   &__icon {
     font-size: 1.8rem;
-    color: $body-color;
+    color: var(--body-color);
   }
 }
 

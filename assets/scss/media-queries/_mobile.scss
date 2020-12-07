@@ -6,20 +6,27 @@
     width: 100%;
     padding: 1.5rem 0 1rem;
     text-align: center;
-    background-color: $body-color;
+    background-color: var(--body-color);
     box-shadow: 0 4px 4px rgba(#000, .1);
     border-radius: 0 0 1rem 1rem;
-    z-index: $z-fixed;
+    z-index: var(--z-fixed);
     transition: all .4s ease-in-out;
   }
 
+  .change-theme {
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    margin-left: 0;
+  }
+
   .show-menu {
-    top: $header-height;
+    top: var(--header-height);
   }
 }
 
 .active-link {
-  color: $first-color;
+  color: var(--first-color);
 }
 
 @media (min-width: 576px) {

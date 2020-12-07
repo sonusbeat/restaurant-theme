@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background: $container-color;
+    background: var(--container-color);
     background-repeat: 0.5rem;
     box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
     padding: 0.75rem;
@@ -17,23 +17,23 @@
   &__img {
     width: 100px;
     align-self: center;
-    margin-bottom: $m-2;
+    margin-bottom: var(--m-2);
   }
 
   &__name,
   &__price {
-    font-weight: $font-semi-bold;
-    color: $title-color;
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
   }
 
   &__name,
   &__detail,
   &__price {
-    font-size: $small-font-size;
+    font-size: var(--small-font-size);
   }
 
   &__detail {
-    margin-bottom: $m-1;
+    margin-bottom: var(--m-1);
   }
 
   &__button {

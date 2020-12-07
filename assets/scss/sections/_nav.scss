@@ -1,24 +1,24 @@
 .nav {
   max-width: 1024px;
-  height: $header-height;
+  height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   &__item {
-    margin-bottom: $m-2;
+    margin-bottom: var(--m-2);
   }
 
   &__link,
   &__logo,
   &__toggle {
-    color: $text-color;
-    font-weight: $font-medium;
+    color: var(--text-color);
+    font-weight: var(--font-medium);
   }
 
   &__logo {
     &:hover {
-      color: $first-color;
+      color: var(--first-color);
     }
   }
 
@@ -26,7 +26,7 @@
     transition: color 300ms ease-in-out;
 
     &:hover {
-      color: $first-color;
+      color: var(--first-color);
     }
   }
 
@@ -34,4 +34,9 @@
     font-size: 1.3rem;
     cursor: pointer;
   }
+}
+
+.change-theme {
+  position: initial;
+  margin-left: var(--m-2);
 }
